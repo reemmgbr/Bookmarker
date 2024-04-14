@@ -1,0 +1,28 @@
+h1::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.39);
+  width: 80%;
+  height: 2px;
+  transform: translate(-50%);
+  left: 50%;
+  right: 50%;
+  bottom: -40%;
+}
+.button-after::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.39);
+  width: 80%;
+  height: 2px;
+  transform: translate(-50%);
+  left: 50%;
+  right: 50%;
+}
+.input:focus {
+  color: green !important;
+  background-color: var(--bs-body-bg);
+  border-color: green;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(75, 184, 48, 0.25);
+}
